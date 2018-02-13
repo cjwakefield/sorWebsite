@@ -1,13 +1,27 @@
 html {
-    height:100%;
+    height: 100%;
     width: 100%;
+    background-color: white;
 }
 
-body
+body {
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+    background-color: purple;
+    font-family: TradeGothic, sans-serif;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 90%;
+    width: 80%;
+}
+
+#sidenav 
 {
-    background-color: powderblue;
-    font-family:  TradeGothic, sans-serif;
-    Margins :
-    height: 70%
-    width: 70%;
+    display:  grid;
+}
+.sideBarElement 
+{
+
 }
