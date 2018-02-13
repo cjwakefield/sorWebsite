@@ -4,20 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Sorensen</title>
-    <link rel="stylesheet" href="Css/Type1.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/sideBar.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Js/sideBar.js"></script>
 </head>
     <body >
-        <iframe width="100%" height="50" align="top" style="margin: 0; padding: 0; border:none; overflow: hidden; background: transparent; position: absolute; z-index: 1; top: 0; left: 0; right: 0;" allowtransparency="true" frameborder="0" src="https://itsbar.web.k-state.edu/bar/?fluid=1&amp;system=ksol"></iframe>
+        <div id="Sidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
-        <p>test</p>
-        <nav id="sidenav">
-            <a href="/html/">HTML</a> 
-            <a href="/css/">CSS</a> 
-            <a href="/js/">JavaScript</a> 
-            <a href="/jquery/">jQuery</a>
-        </nav>
+
     </body>
     
 </html>

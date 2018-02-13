@@ -8,20 +8,11 @@ body {
     border-color: black;
     border-width: thick;
     border-style: solid;
-    background-color: purple;
+    background-color: white;
     font-family: TradeGothic, sans-serif;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
     height: 90%;
     width: 80%;
-}
-
-#sidenav 
-{
-    display:  grid;
-}
-.sideBarElement 
-{
-
 }
