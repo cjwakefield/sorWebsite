@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Sorensen</title>
-    <link rel="stylesheet" href="Css/main.css">
-    <link rel="stylesheet" href="Css/sideBar.css">
-    <script src="Js/main.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/sideBar.css" />
+    <link rel="stylesheet" href="/css/vita.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <!--- This is the code for the side bar -->
     <div id="Sidenav" class="sidenav">
-        <a href="index.html">Home</a>
-        <a id="Vita_B" onclick="scroll()">Vita</a>
-        <a href="#">Publications</a>
+        <a href="/">Home</a>
+        <a href="#" id="Vita_B" onclick="scroll_to_vita()">Vita</a>
+        <a href="/publications/">Publications</a>
         <a href="#">Classes</a>
 
     </div>
 
-    <div id="Bio" class="TextBox" style="margin-top: 80px; position:relative;">
+    <div id="Bio" class="TextBox" >
         <div style="margin-bottom: 10px;">
             <h1>Christopher Michael Sorensen</h1>
 
             <h3> Cortelyou-Rust University Distinguished Professor</h3>
             <h3>University Distinguished Teaching Scholar</h3>
             <h3>Physics and Chemistry (Adjunct)</h3>
+
+            <img id="sorImg" src="src/sorensen.jpg" style="float:right; top:125px; " />
 
             <h5>Department of Physics</h5>
             <h5>Kansas State University, Manhattan, KS 66506-2601</h5>
@@ -65,12 +69,238 @@
 
     </div>
 
-    <div id="Vita" class="TextBox" style="position:relative;  margin-top:20px; margin-bottom:20px;">
+    <div id="Vita" class="TextBox">
         <h1>Vita</h1>
         <p><b>Biographical : </b>Born October 1, 1947, Omaha, Nebraska. Married, one child.</p>
         <p><b>Education : </b>B.S. Physics, University of Nebraska, 1969; M.S., 1973, Ph.D., 1977 Physics, University of Colorado.</p>
         <p><b>Military Service : </b>August 28, 1969 July 19, 1971 (Drafted), USARV Vietnam, Rank: Sp/5.</p>
+        <p>
+            <b>Professional Experience: </b> Assistant (1977-1982), Associate (1982-1986), Professor (1986-2000)
+            of Physics, Adjunct Professor of Chemistry (1987-present), University Distinguished Professor
+            (2000-present), Cortelyou-Rust University Distinguished Professor(2009 – present), Kansas
+            State University
+        </p>
+        <p>
+            <b>Experience:</b> Taught at all levels from non-science majors to graduate level physics. 45
+            of 80 semesters have been involved with large undergraduate fundamental physics class (see
+            list below).
+        </p>
+        <h3>Honors</h3>
+        <ul>
+            <li>Phi Eta Sigma (1966) </li>
+            <li>Phi Beta Kappa (1969) </li>
+            <li>Woodrow Wilson Fellow (1969) </li>
+            <li>Stamey Teaching Award (1990, 1994, KSU College of Arts &amp; Sciences) </li>
+            <li>Commerce Bank Teaching Award (1996) </li>
+            <li>Schenk Physics Teaching Award (1996, 2006, KSU Physics) </li>
+            <li>Commerce Bank Distinguished Graduate Faculty Member Award (1997) </li>
+            <li>University Distinguished Professor (2000) </li>
+            <li>Presidential Award for Outstanding Undergraduate Teaching (2002) </li>
+            <li>David Sinclair Senior Scientist Award, American Assoc. for Aerosol Research (2003) </li>
+            <li>Coffman Chair for Distinguished Teaching Scholars (2007) </li>
+            <li>Making a Difference Award (2007, KSU Women in Science and Engineering) </li>
+            <li>Carnegie/CASE National Professor of the Year for Doctoral Universities (2007) </li>
+            <li>George Norlin Distinguished Alumnus Award, University of Colorado (2008) </li>
+            <li>Olin Petefish Award in Basic Science, Higuchi-KU Endowment Award (2008) </li>
+            <li>Fellow, American Association for Aerosol Research (2011) </li>
+            <li>Iman Outstanding Faculty Award for Teaching, K-State Alumni Association (2011) </li>
+            <li>Named one of the top 150 scientists in Kansas history by Ad Astra Kansas Initiative (2011) </li>
+            <li>Fellow, American Physical Society (2012) </li>
+            <li>Fellow, American Association for the Advancement of Science (2014) </li>
+            <li>Michelle Munson, President, CEO &amp; Co-Founder of Aspera endowed $1M to initiate the </li>
+            <li>C. M. Sorensen Intellectual Property Incubator </li>
+        </ul>
+        <h3>Professional Societies</h3>
+        <ul>
+            <li>American Association for Aerosol Research (Fellow)</li>
+            <li>American Physical Society (Fellow) </li>
+            <li>American Chemical Society</li>
+            <li>Gesellschaft for Aerosolforschung</li>
+            <li>American Association for the Advancement of Science (Fellow)</li>
+        </ul>
 
+        <h3>Synergistic Activities </h3>
+        <ul>
+            <li>
+                Very active in the American Association for Aerosol Research. Served as president in 2007-
+                2008, the Board of Directors from 1995 to 1998, and chaired the annual meeting in 1997.
+            </li>
+            <li>
+                Created, developed and taught a “New Studio” course for sophomore-level fundamental
+                physics, that handles 450 students per year. This is now an integral part of our engineering
+                curriculum.
+            </li>
+            <li>
+                Adapted, developed and taught this New Studio concept to a three-semester optics
+                curriculum.
+            </li>
+            <li>
+                Created and taught a fundamental physics course for non-SMET majors, freshmen and
+                sophomores, which includes (~40%) reading and discussion of the writings of great physicists.
+            </li>
+            <li>
+                Created and teach a seminar course “Great Ideas in Physics.”
+            </li>
+            <li>
+                Co-created and developed and am primary lecturer for a 4 day summer workshop (EXCITE) for
+                teenage girls.
+            </li>
+            <li>
+                Lecture at ca. 5 high schools per year on science.
+            </li>
+            <li>
+                Supervise high school student research sponsored by ACS project SEED (over 18 years).
+            </li>
+            <li>
+                Supervised 19 MS, 16 PhDs, and 11 postdoctoral and over 60 undergraduates in research.
+            </li>
+            <li>
+                Associate Editor, Aerosol Science and Technology (1998 to 2011).
+            </li>
+            <li>
+                Co-Chair, Nanoparticle Synthesis and Assembly: Faraday Discussion 181 of the RSC, 20-22
+                April 2015 at Argonne national Lab, Chicago, IL, USA.
+            </li>
+            <li>
+                Faculty advisor to both the KSU Men’s and Women’s Rugby Clubs and the CrossFit Club.
+            </li>
+            <li>
+                Coached girls’ softball for 13 years.
+            </li>
+        </ul>
+        <h3>Recent Significant University Service </h3>
+        <ul>
+            <li>
+                Led the University to educate about and lead the public to witness the solar eclipse of August
+                21, (2017)
+            </li>
+            <li>
+                KSU Vice President for Research search committee (2014)
+            </li>
+            <li>
+                President Beta Chapter of Phi Beta Kappa (2013- 2014)
+            </li>
+            <li>
+                KSU Long Range Planning Committee (2012-2013)
+            </li>
+            <li>
+                Chair, Task Force for the Research, Scholarship and Creative Activities Enterprise at KSU (2010)
+            </li>
+            <li>
+                KSU President search committee (2008-2009)
+            </li>
+            <li>
+                KSU Research Foundation Board of Directors Executive Committee (2004-2009)
+            </li>
+            <li>
+                KSU Research Foundation Board of Directors (2002-2009)
+            </li>
+            <li>
+                Ron and Rae Iman Outstanding Faculty Awards committee (2007-2009)
+            </li>
+            <li>
+                Dean’s Advisory Committee (2005-2008)
+            <li>
+                Primary texts program advisory committee (2003-present)
+            </li>
+            <li>
+                Honors program advisory committee (2006-present)
+            </li>
+            <li>
+                State of Kansas DEPSCoR Committee (2004-2008)
+            </li>
+            <li>
+                KSU Intellectual Property Advisory Committee (1997-2004)
+            </li>
+            <li>
+                Kansas Board of Regents Natural Sciences Review Team (2000-2001)
+            </li>
+            <li>
+                Faculty Development/University Small Research Grant Awards Committee (1996-2000)
+            </li>
+            <li>
+                University Distinguished Teaching Scholar Selection Committee (Chair) (1997-1999)
+            </li>
+            <li>
+                Presidential Lecturer (1986-present)
+            </li>
+        </ul>
+        <h3>Patents</h3>
+        <ol>
+            <li>
+                Encapsulated Nanometer Magnetic Particles, US Patent No. 6,045,925. April 4, 2000;
+                with Klabunde and Zhang.
+            </li>
+            <li>
+                Synthesis of Monodisperse Gold Colloids by the Solvated Metal Atom Dispersion (SMAD)
+                Method and their Organization in 2D-and 3D-Structures. US Patent No. 6,562,504, May
+                13, 2003, with Stoeva and Klabunde.
+            </li>
+            <li>
+                Glass Composite Including Dispersed Rare Earth Iron Garnet Nanoparticles, US Patent
+                Number 6,790,521B1 (Sept. 14, 2004) with S. Taketome and K. Klabunde.
+            </li>
+            <li>
+                Glass Composite Including Dispersed Rare Earth Iron Garnet Nanoparticles, US Patent
+                Number 7,078,071B2 (July 18, 2006) with S. Taketome and K. Klabunde.
+            </li>
+            <li>
+                Novel Siloxanes and Methods of Synthesis Thereof using Metallic Nanoparticles Catalyst,
+                with B. Prasad and K. Klabunde, US Patent Number 7,244,799 (July 17, 2007).
+            <li>
+                Creation of Ultralow Density Porous Materials via Aerosol Gelation: Aerosol Gels, C. M.
+                Sorensen, A. Chakrabarti, R. Dhaubhadel and C. Gerving; US Patent Number 7,691,909
+                issued on April 6, 2010.
+            </li>
+            <li>
+                Process for High-yield Production of Graphene via Detonation of Carbon Containing
+                Material, C. M. Sorensen, A. Nepal, G. P Singh, U.S. Patent No. 9,440,857; September 13,
+                2016.
+            </li>
+            <li>
+                Direct Dissolution of Bulk Materials to Nanoparticles, Christopher M. Sorensen, Stefan
+                Bossmann, Xiao-Min Lin, Emily J. McLaurin, Jessica Changstrom, Pablo Guimera Coll,
+                Jeffrey Alan Powell, Hongwang Wang, and Asanka Sajini Yapa. US Patent filed June 16,
+                2014.
+            </li>
+            <li>
+                Steven J. Eckels, B. Terry Beck, Mohammed H. Hosni, Christopher M. Sorensen, Donald Tomasi,
+                “The Metastable Critical Flow Thermodynamic Refrigeration Cycle,” Provisional Patent
+                Application No. 62/415,722 filed on November 1, 2016.
+            </li>
+        </ol>
+        <h3>Recent Talks of Note</h3>
+        <ul>
+            <li>
+                Shaw Memorial Lecture, “Fire, Fractals and Physics”, University of Southern Illinois at
+                Edwardsville, December 5, 2007.
+            </li>
+            <li>
+                Provost’s Lecture, “A University without Walls”, Kansas State University, April 24, 2008.
+            </li>
+            <li>
+                Commencement Address, Kansas State University graduate school, December 12, 2008.
+            </li>
+            <li>
+                Commencement Address, Kansas State University-Salina, December 12, 2008.
+            </li>
+            <li>
+                Keynote address, “Advice to the Young Professor”, at the University of Nebraska at Lincoln 19 th
+                annual Workshop for Graduate Teaching Assistants, August 18, 2009.
+            </li>
+            <li>
+                Friedlander Plenary Lecture, “From Single Particles to Aerosol Gels: Thirty Years of Fractal
+                Aggregates”, at the 30 th Annual meeting of the American Association for Aerosol Research,
+                Orlando FL, October 7, 2011.
+            </li>
+            <li>
+                Commencement Address, Kansas State University College of Arts &amp; Sciences, December, 2012.
+            </li>
+            <li>
+                Lecturer on Scientific American Bright Horizons 16 (Patagonia Cruise) Feb. 20 to Mar. 5, 2013.
+                Five talks on science.
+            </li>
+        </ul>
     </div>
 
 
